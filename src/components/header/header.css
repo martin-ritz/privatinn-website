@@ -84,6 +84,7 @@
   .site-header__nav-list {
    display: flex;
    gap: var(--space-12);
+   margin-top: 0;
   }
 
   .hamburger__bar {
