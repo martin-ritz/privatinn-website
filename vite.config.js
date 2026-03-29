@@ -5,8 +5,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        /*main: resolve(__dirname, 'index.html'),
-        contacts: resolve(__dirname, 'src/pages/contacts/kontakt.html'),*/
+        main: resolve(__dirname, 'index.html'),
       }
     }
   }

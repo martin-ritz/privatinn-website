@@ -1,0 +1,49 @@
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  letter-spacing: 0.07em;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--space-8);
+}
+
+.site-header__logo svg {
+  width: 80px;
+  height: auto;
+}
+
+.site-header__nav {
+  display: none;
+}
+
+.hamburger__bar {
+  height: 1px;
+  width: 25px;
+  background-color: var(--color-text);
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 1000px) {
+  .site-header__nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .site-header__nav-list {
+   display: flex;
+   gap: var(--space-12);
+  }
+
+  .hamburger__bar {
+    display: none;
+  }
+}

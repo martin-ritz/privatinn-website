@@ -79,21 +79,21 @@ button {
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
-  padding: O var(--page-padding);
+  padding: 0 var(--page-padding);
   width: 100%;
 }
 
 :root {
-  --color-bg: ;
+  --color-bg: hsl(0, 0%, 8%);
   --color-surface: ;
   --color-accent: ;
   --color-accent-hover: ;
-  --color-text: ;
-  --color-text-muted: ;
+  --color-text: hsl(0, 0%, 95%);
+  --color-text-muted: hsl(0, 0%, 60%);
   --color-border: ;
 
   --font-heading: ;
-  --font-body: ;
+  --font-body: 'Vend Sans', system-ui;
 
   font-size: 16px;
 

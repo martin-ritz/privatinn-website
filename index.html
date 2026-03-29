@@ -31,6 +31,10 @@
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ffffff">
     <link rel="manifest" href="/site.webmanifest">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
     <script type="module" src="/src/main.js" defer></script>
 
     <title></title>
@@ -38,12 +42,16 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul></ul>
-      </nav>
-    </header>
-    <main></main>
+    <site-header></site-header>
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <p class="hero__heading">Ubytování v&nbsp;Rakvicích s&nbsp;atmosférou jižní Moravy</p>
+          <p class="hero__subheading">Pohodlí, klid a blízkost Pálavy a Lednice</p>
+          <a  class="cta__button">Rezervovat pobyt</a>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
