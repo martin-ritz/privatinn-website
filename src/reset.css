@@ -84,7 +84,7 @@ button {
 }
 
 :root {
-  --color-bg: hsl(0, 0%, 8%);
+  --color-bg: rgb(94, 93, 89);
   --color-surface: ;
   --color-accent: ;
   --color-accent-hover: ;

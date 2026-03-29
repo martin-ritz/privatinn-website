@@ -73,3 +73,17 @@ linear-gradient(rgba(20,20,20,0.2), rgba(20,20,20,0.2)),
   background: var(--color-text);
   color: var(--color-bg);
 }
+
+@media (min-width: 1000px) {
+  .hero__container {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 var(--page-padding);
+  }
+
+  .hero__heading {
+    font-size: var(--text-5xl);
+  }
+}
