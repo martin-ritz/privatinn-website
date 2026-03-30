@@ -1,0 +1,18 @@
+body {
+  background: hsl(45, 3%, 36%);
+}
+
+.page__heading {
+  margin-top: 100px;
+  font-size: clamp(var(--text-2xl), 8vw, var(--text-3xl));
+  line-height: 1;
+}
+
+.page__subheading {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
+.small__heading {
+  color: var(--color-text-muted);
+}

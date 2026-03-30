@@ -24,7 +24,7 @@ body {
 
 ::selection {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-bg);
 }
 
 img,
@@ -84,7 +84,7 @@ button {
 }
 
 :root {
-  --color-bg: rgb(94, 93, 89);
+  --color-bg: hsl(45, 3%, 36%);
   --color-surface: ;
   --color-accent: ;
   --color-accent-hover: ;

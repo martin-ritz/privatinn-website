@@ -16,7 +16,7 @@ class SiteHeader extends HTMLElement {
               <li><a href="galerie.html">Galerie</a></li>
               <li><a href="tipy.html">Tipy</a></li>
               <li><a href="rezervace.html">Rezervace</a></li>
-              <li><a href="kontakt.html">Kontakt</a></li>
+              <li><a href="/src/pages/contacts/kontakt.html">Kontakt</a></li>
             </ul>
           </nav>
 
