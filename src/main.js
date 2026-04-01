@@ -5,3 +5,4 @@ import './pages/home/home.js';
 import './pages/contacts/contacts.js';
 import './pages/reservations/reservations.js';
 import './pages/pricing/pricing.js';
+import './pages/rooms/rooms.js';
