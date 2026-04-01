@@ -1,10 +1,10 @@
 import './reset.css';
 import './components/header/header.js';
 import './components/footer/footer.js';
-import './domu/home.js';
-import './kontakt/contacts.js';
-import './rezervace/reservations.js';
-import './cenik/pricing.js';
-import './pokoje/rooms.js';
-import './galerie/gallery.js';
-import './tipy/tips.js';
+import './pages/home/home.js';
+import './pages/contacts/contacts.js';
+import './pages/reservations/reservations.js';
+import './pages/pricing/pricing.js';
+import './pages/rooms/rooms.js';
+import './pages/gallery/gallery.js';
+import './pages/tips/tips.js';
