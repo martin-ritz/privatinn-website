@@ -6,12 +6,12 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        contact: resolve(__dirname, 'src/pages/kontakt/index.html'),
-        reservations: resolve(__dirname, 'src/pages/rezervace/index.html'),
-        pricing: resolve(__dirname, 'src/pages/cenik/index.html'),
-        rooms: resolve(__dirname, 'src/pages/pokoje/index.html'),
-        gallery: resolve(__dirname, 'src/pages/galerie/index.html'),
-        tips: resolve(__dirname, 'src/pages/tipy/index.html'),
+        kontakt: resolve(__dirname, 'kontakt/index.html'),
+        cenik: resolve(__dirname, 'cenik/index.html'),
+        pokoje: resolve(__dirname, 'pokoje/index.html'),
+        galerie: resolve(__dirname, 'galerie/index.html'),
+        tipy: resolve(__dirname, 'tipy/index.html'),
+        rezervace: resolve(__dirname, 'rezervace/index.html'),
       }
     }
   }
