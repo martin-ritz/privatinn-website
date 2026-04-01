@@ -13,4 +13,8 @@
   .gallery__container {
     columns: 2;
   }
+
+  .gallery__container img:nth-of-type(7) {
+    gap: 0;
+  }
 }
