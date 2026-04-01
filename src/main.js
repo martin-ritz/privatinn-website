@@ -7,3 +7,4 @@ import './pages/reservations/reservations.js';
 import './pages/pricing/pricing.js';
 import './pages/rooms/rooms.js';
 import './pages/gallery/gallery.js';
+import './pages/tips/tips.js';

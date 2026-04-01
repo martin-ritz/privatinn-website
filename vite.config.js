@@ -11,6 +11,7 @@ export default defineConfig({
         pricing: resolve(__dirname, './src/pages/pricing/cenik.html'),
         rooms: resolve(__dirname, './src/pages/rooms/pokoje.html'),
         gallery: resolve(__dirname, './src/pages/gallery/galerie.html'),
+        tips: resolve(__dirname, './src/pages/tips/tipy.html'),
       }
     }
   }

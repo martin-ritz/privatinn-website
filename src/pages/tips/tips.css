@@ -1,0 +1,35 @@
+.trips__items,
+.info__items {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+.trips__items {
+  margin-bottom: var(--space-16);
+}
+
+.item__label {
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: var(--space-1);
+}
+
+.item__description {
+  color: var(--color-text-muted);
+  line-height: 1.2;
+  font-size: var(--text-sm);
+}
+
+.item__time {
+  font-size: var(--text-sm);
+}
+
+@media (min-width: 1000px) {
+  .trips__items,
+  .info__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1rem;
+  }
+}
