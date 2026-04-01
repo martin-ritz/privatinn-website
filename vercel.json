@@ -1,11 +1,4 @@
 {
   "cleanUrls": true,
-  "rewrites": [
-    { "source": "/pokoje", "destination": "/src/pages/pokoje/pokoje.html" },
-    { "source": "/cenik", "destination": "/src/pages/cenik/cenik.html" },
-    { "source": "/galerie", "destination": "/src/pages/gallery/galerie.html" },
-    { "source": "/tipy", "destination": "/src/pages/tipy/tipy.html" },
-    { "source": "/rezervace", "destination": "/src/pages/rezervace/rezervace.html" },
-    { "source": "/kontakt", "destination": "/src/pages/contacts/kontakt.html" }
-  ]
+  "trailingSlash": true
 }
