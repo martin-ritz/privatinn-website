@@ -10,6 +10,7 @@ export default defineConfig({
         reservations: resolve(__dirname, './src/pages/reservations/rezervace.html'),
         pricing: resolve(__dirname, './src/pages/pricing/cenik.html'),
         rooms: resolve(__dirname, './src/pages/rooms/pokoje.html'),
+        gallery: resolve(__dirname, './src/pages/gallery/galerie.html'),
       }
     }
   }

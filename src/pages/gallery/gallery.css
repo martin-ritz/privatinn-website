@@ -1,0 +1,16 @@
+.gallery__container {
+  columns: 1;
+  gap: var(--space-4);
+}
+
+.gallery__container img {
+  width: 100%;
+  margin-bottom: var(--space-4);
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .gallery__container {
+    columns: 2;
+  }
+}
