@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         contact: resolve(__dirname, './src/pages/contacts/kontakt.html'),
         reservations: resolve(__dirname, './src/pages/reservations/rezervace.html'),
+        pricing: resolve(__dirname, './src/pages/pricing/cenik.html'),
       }
     }
   }
