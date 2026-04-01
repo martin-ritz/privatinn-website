@@ -1,0 +1,63 @@
+.content__container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.conditions {
+  margin-bottom: var(--space-5);
+}
+
+.reservations__text {
+  line-height: 1;
+  margin-bottom: var(--space-4)
+}
+
+.button__container {
+  margin-top: var(--space-16);
+}
+
+.reservations__button:nth-of-type(1) {
+  margin-right: 1em;
+}
+
+.other__platforms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+.platform__heading {
+  margin-top: var(--space-32);
+}
+
+.platform__logo__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin-top: var(--space-3)
+}
+
+.platform__logo__container img {
+  height: 30px;
+  width: auto;
+  opacity: 0.7;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.platform__logo__container img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.platform__logo__container img[src*=bookingcom] {
+  height: 22px;
+}
+
+@media (min-width: 1000px) {
+  .content__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

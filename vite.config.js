@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         contact: resolve(__dirname, './src/pages/contacts/kontakt.html'),
+        reservations: resolve(__dirname, './src/pages/reservations/rezervace.html'),
       }
     }
   }

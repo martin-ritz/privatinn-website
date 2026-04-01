@@ -6,7 +6,7 @@ class SiteHeader extends HTMLElement {
       <header class="site-header">
         <div class="wrapper">
           <a href="/index.html" class="site-header__logo">
-            <div class="site-header__logo--text">PRIVAT INN</div>
+            <div class="site-header__logo--text">PRIVAT<span class="forward__slash"> / </span>INN</div>
           </a>
 
           <nav class="site-header__nav">
@@ -15,7 +15,7 @@ class SiteHeader extends HTMLElement {
               <li><a href="cenik.html">Ceník</a></li>
               <li><a href="galerie.html">Galerie</a></li>
               <li><a href="tipy.html">Tipy</a></li>
-              <li><a href="rezervace.html">Rezervace</a></li>
+              <li><a href="/src/pages/reservations/rezervace.html">Rezervace</a></li>
               <li><a href="/src/pages/contacts/kontakt.html">Kontakt</a></li>
             </ul>
           </nav>

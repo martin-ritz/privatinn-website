@@ -92,6 +92,10 @@
   transform: translateY(-6px) rotate(-45deg);
 }
 
+.forward__slash {
+  color: var(--color-text-muted);
+}
+
 @media (min-width: 1000px) {
   .site-header__nav {
     display: flex;
