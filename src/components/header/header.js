@@ -5,7 +5,7 @@ class SiteHeader extends HTMLElement {
     this.innerHTML = `
       <header class="site-header">
         <div class="wrapper">
-          <a href="index.html" class="site-header__logo">
+          <a href="/index.html" class="site-header__logo">
             <div class="site-header__logo--text">PRIVAT INN</div>
           </a>
 
