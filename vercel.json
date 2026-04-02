@@ -1,4 +1,8 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "http://privatinn.cz/(.*)", "destination": "https://www.privatinn.cz/$1", "permanent": true },
+    { "source": "http://www.privatinn.cz/(.*)", "destination": "https://www.privatinn.cz/$1", "permanent": true }
+  ]
 }
