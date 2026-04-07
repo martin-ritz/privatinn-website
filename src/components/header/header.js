@@ -11,12 +11,12 @@ class SiteHeader extends HTMLElement {
 
           <nav class="site-header__nav">
             <ul class="site-header__nav-list">
-              <li><a href="/pokoje/">Pokoje</a></li>
-              <li><a href="/galerie/">Galerie</a></li>
-              <li><a href="/tipy/">Tipy</a></li>
-              <li><a href="/cenik/">Ceník</a></li>
-              <li><a href="/rezervace/">Rezervace</a></li>
-              <li><a href="/kontakt/">Kontakt</a></li>
+              <li><a href="/pokoje">Pokoje</a></li>
+              <li><a href="/galerie">Galerie</a></li>
+              <li><a href="/tipy">Tipy</a></li>
+              <li><a href="/cenik">Ceník</a></li>
+              <li><a href="/rezervace">Rezervace</a></li>
+              <li><a href="/kontakt">Kontakt</a></li>
             </ul>
           </nav>
 
