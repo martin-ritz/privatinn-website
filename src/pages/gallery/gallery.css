@@ -15,10 +15,6 @@
   }
 
   .gallery__container img.gallery__last {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
   }
-
-  .gallery__bathroom {
-  margin-bottom: 0;
-}
 }
