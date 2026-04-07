@@ -1,21 +1,26 @@
 .gallery__container {
-  columns: 1;
+  display: flex;
+  flex-direction: column;
   gap: var(--space-4);
 }
 
-.gallery__container img {
+.gallery__col1,
+.gallery__col2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.gallery__col1 img,
+.gallery__col2 img {
   width: 100%;
-  margin-bottom: var(--space-4);
   display: block;
 }
 
 @media (min-width: 1000px) {
   .gallery__container {
-    columns: 2;
-    column-fill: balance;
-  }
-
-  .gallery__container img.gallery__last {
-    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
   }
 }
