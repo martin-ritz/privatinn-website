@@ -12,6 +12,7 @@
 @media (min-width: 1000px) {
   .gallery__container {
     columns: 2;
+    column-fill: balance;
   }
 
   .gallery__container img.gallery__last {
