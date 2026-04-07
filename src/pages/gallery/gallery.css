@@ -14,7 +14,6 @@
     columns: 2;
   }
 
-  .gallery__last {
-    margin-bottom: 0;
+  .gallery__container img.gallery__last { margin-bottom: 0;
   }
 }
