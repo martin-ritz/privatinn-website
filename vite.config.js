@@ -12,6 +12,7 @@ export default defineConfig({
         galerie: resolve(__dirname, 'galerie/index.html'),
         tipy: resolve(__dirname, 'tipy/index.html'),
         rezervace: resolve(__dirname, 'rezervace/index.html'),
+        error: resolve(__dirname, '404.html'),
       }
     }
   }
